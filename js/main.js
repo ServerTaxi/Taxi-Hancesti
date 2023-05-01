@@ -51,17 +51,17 @@
         Hero Slider
     ------------------------*/
     $(".hero__slider").owlCarousel({
-        loop: true,
+        loop: false,
         margin: 0,
         items: 1,
-        dots: true,
-        nav: true,
+        dots: false,
+        nav: false,
         navText: ["<i class='fa fa-angle-left'><i/>", "<i class='fa fa-angle-right'><i/>"],
         animateOut: 'fadeOut',
         animateIn: 'fadeIn',
         smartSpeed: 1500,
         autoHeight: false,
-        autoplay: true,
+        autoplay: false,
         mouseDrag: false,
         onInitialized: function (e) {
             var a = this.items().length;
@@ -83,11 +83,11 @@
         Project Slider
     ----------------------------*/
     $(".project__slider").owlCarousel({
-        loop: true,
+        loop: false,
         margin: 0,
         items: 4,
         dots: false,
-        nav: true,
+        nav: false,
         navText: ["<span class='arrow_carrot-left'><span/>", "<span class='arrow_carrot-right'><span/>"],
         smartSpeed: 1200,
         autoHeight: false,
@@ -152,14 +152,14 @@
         Logo Carousel
     ----------------------------------*/
     $(".logo__carousel").owlCarousel({
-        loop: true,
+        loop: false,
         margin: 80,
         items: 5,
         dots: false,
         nav: false,
         smartSpeed: 1200,
         autoHeight: false,
-        autoplay: true,
+        autoplay: false,
         responsive: {
             320: {
                 items: 2
